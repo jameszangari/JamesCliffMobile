@@ -1,0 +1,32 @@
+div {
+    margin-top: auto;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
