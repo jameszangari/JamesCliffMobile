@@ -1,15 +1,15 @@
 /* CSS FOR ABOUT, CONTACT, and PORTFOLIO PAGES */
 
 @font-face {
-  font-family: "poppins-light";
-  src: url("/fonts/pl/poppins-light-webfont.woff2") format("woff2"),
-       url("/fonts/pl/poppins-light-webfont.woff") format("woff");
+  font-family: "opensans-regular";
+  src: url("/fonts/os/opensans-regular-webfont.woff2") format("woff2"),
+       url("/fonts/os/opensans-regular-webfont.woff") format("woff");
 }
 
 @font-face {
-  font-family: "poppins-bold";
-  src: url("/fonts/pb/poppins-bold-webfont.woff2") format("woff2"),
-       url("/fonts/pb/poppins-bold-webfont.woff") format("woff");
+  font-family: "dinbold";
+  src: url("/fonts/db/dinbold-webfont.woff2") format("woff2"),
+       url("/fonts/db/dinbold-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -20,8 +20,8 @@
 
 /* logo in hamburger menu */
 img.header-logo {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 }
 
 /* Navigation Menu - Background */
@@ -143,12 +143,12 @@ iframe {
   }
 
   p {
-    font-family: "poppins-light";
+    font-family: "opensans-regular";
     line-height: 20px;
   }
 
   h1 {
-    font-family: "poppins-bold";
+    font-family: "dinbold";
     font-size: 1.5em;
   }
   
