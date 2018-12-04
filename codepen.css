@@ -86,6 +86,41 @@ img.header-logo {
     font-family: 'Open Sans', 'Arial, Helvetica', 'sans-serif';
   }
   
+#port-wrap {
+    /* Critical position and size styles */
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white; /* Needs a background or else the nav will show through */
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    
+    /* non-critical apperance styles */
+    padding: 4em;
+    background-image: #ffffff;
+    background-size: 200%;
+    font-family: 'Open Sans', 'Arial, Helvetica', 'sans-serif';
+  }
+  
+  #con-wrap {
+    /* Critical position and size styles */
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white; /* Needs a background or else the nav will show through */
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    
+    /* non-critical apperance styles */
+    padding: 4em;
+    background-image: #ffffff;
+    background-size: 200%;
+    font-family: 'Open Sans', 'Arial, Helvetica', 'sans-serif';
+  }
   /* Nav Trigger */
   #nav-trigger {
     /* critical styles - hide the checkbox input */

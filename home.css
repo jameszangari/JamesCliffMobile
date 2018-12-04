@@ -1,0 +1,173 @@
+/* CSS FOR NEW STREAMLINED PAGE */
+
+@font-face {
+  font-family: "opensans-regular";
+  src: url("/fonts/os/opensans-regular-webfont.woff2") format("woff2"),
+       url("/fonts/os/opensans-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "dinbold";
+  src: url("/fonts/db/dinbold-webfont.woff2") format("woff2"),
+       url("/fonts/db/dinbold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("/fonts/qks/Quicksand-Regular.woff2") format("woff2"),
+       url("/fonts/qks/Quicksand-Regular.woff") format("woff");
+}
+
+div.logo-container {    
+    background: #ffffff;
+	background: linear-gradient(
+		to right,
+		#ffffff 0%,
+		#ffffff 50%,
+		#000000 50%,
+		#000000 100%);
+	height: 100vh;
+}
+
+img.stick {
+    display: block;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.stick {
+    height: 3.125rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+div.philly {
+    /*display: block;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;*/
+    background-image: url(/media/philly.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+div.bio-container {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    
+    padding: 4em 4em 0em 4em;
+    background-image: #ffffff;
+    background-size: 200%;
+    font-family: 'Open Sans', 'Arial, Helvetica', 'sans-serif';
+}
+
+div.port-container {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    
+    padding: 4em;
+    background-image: #ffffff;
+    background-size: 200%;
+    font-family: 'Open Sans', 'Arial, Helvetica', 'sans-serif';
+}
+
+div.con-container {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    
+    padding: 4em;
+    background-image: #ffffff;
+    background-size: 200%;
+    font-family: 'Open Sans', 'Arial, Helvetica', 'sans-serif';
+}
+
+div.social-media {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    
+    padding: 4em;
+    background-image: #ffffff;
+    background-size: 200%;
+    font-family: 'Open Sans', 'Arial, Helvetica', 'sans-serif';
+}
+
+h1, h3, p {
+    max-width: 600px;
+    margin: 0 auto 1em;
+}
+
+p {
+    font-family: "opensans-regular";
+    line-height: 20px;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "dinbold";
+    font-size: 2em;
+}
+
+div.social-media, img {
+    margin-right: 13px;
+    align-content: center;
+}
+
+/* unvisited link */
+a.links:link {
+    color: #b10000;
+    text-decoration: none;
+}
+
+/* visited link */
+a.links:visited {
+    color: #700000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.links:hover {
+    color: #d10000;
+    text-decoration: none;
+}
+
+/* selected link */
+a.links:active {
+    color: #800000;
+    text-decoration: none;
+}
+
+/* Micro reset */
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html, body { height: 100%; width: 100%; font-family: 'Open Sans','Helvetica', 'Arial', 'sans-serif'; }
