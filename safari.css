@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url("/fonts/qks/Quicksand-Regular.woff2") format("woff2"),
+         url("/fonts/qks/Quicksand-Regular.woff") format("woff");
+  }
+
+body {
+	background:rgb(32, 37, 43);
+}
+
+img.safari {
+    /*background-color: blue;*/
+	display: block;
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand-Regular';
+}
+  
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+}
+  
+.navbar a {
+    display: block;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    align-content: center;
+}
+  
+.navbar a:hover {
+    background: #f1f1f1;
+    color: rgb(0, 0, 0);
+}
+
+.fulllogo a:hover {
+    background: #000000;
+    color: #ffffff;
+    z-index: 2;
+    opacity: 0.20;
+}
+  
+.navbar a.active {
+    background-color: rgb(165, 55, 55);
+    color: white;
+}
+
+.fulllogo {
+    
+}
+
+a.hyperlogo {
+    
+}
