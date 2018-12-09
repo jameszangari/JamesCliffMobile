@@ -18,6 +18,10 @@
        url("fonts/qks/Quicksand-Regular.woff") format("woff");
 }
 
+body {
+    background-color: rgb(250, 250, 250);
+}
+
 body, footer {
     font-family: "opensans-regular", 'Arial, Helvetica', 'sans-serif';
 }
@@ -45,14 +49,27 @@ img.stick {
     margin: auto;
 }
 
+img.arrow {
+    display: block;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    bottom: -300px;
+    margin: auto;
+}
+
 .stickybar {
-    border-top: 4px solid #000000;
-    border-bottom: 4px solid #800000;
-    background-color: #ffffff;
+    /*border-top: 4px solid #ffffff;*/
+    border-bottom: 5px solid #800000;
+    background-color: #000000;
     position: -webkit-sticky;
     position: sticky;
     top: 0;    
     text-align: center;
+    z-index: 9999;
 }
 
 .fulllogo {
@@ -169,7 +186,7 @@ img.media-buttons {
 
 footer, p.footer {
     text-align: center;
-    padding: 4em;
+    /*padding: 4em;*/
     padding-bottom: 1em;
     font-size: 12px;
 }
@@ -201,3 +218,16 @@ a.links:active {
 /* Micro reset */
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
 html, body { height: 100%; width: 100%; font-family: 'Open Sans','Helvetica', 'Arial', 'sans-serif'; }
+
+
+/* AUDIO.html CSS */
+figure {
+    padding: 4em;
+    z-index: 2;
+}
+
+figcaption {
+    padding-bottom: 1em;
+    font-family: "dinbold";
+    font-size: 16px;
+}

@@ -6,23 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="master.css">
-    <link rel="shortcut icon" type="image/png" href="./media/logos/favicon.jpg"/>
+    <link rel="shortcut icon" type="image/jpg" href="./media/logos/favicon.jpg"/>
     <title>James Cliff</title>
 </head>
 
+<style type="text/css">
+html {
+    scroll-behavior: smooth;
+}
+</style>
 
-<!-- b/w logo section -->
+<div id="home"></div>
+
+<!-- b/w logo [clicking jumps to next section] -->
 <div class="logo-container">
-    <a href="index.html" class="hyperlogo"><img src="bw_logo.png" class="stick"></a>
+    <a href="index.html" class="hyperlogo"><img src="./media/logos/bw_logo.png" class="stick"></a>
 </div>
 
+<!-- b/w arrow [clicking jumps to next section] -->
+<div class="arrow">
+    <a href="#jump" class="hyperlogo"><img src="./media/logos/arrow_w.png" class="arrow"></a>
+</div>
 
 <!-- start of div that wraps all body content -->
 <div class="wrapper">
 
 <!-- sticky black bar with logo -->
+<!-- [clicking the logo jumps back a section] -->
 <div class="stickybar">
-    <a href="index.html" class="hyperlogo"></a><img class="fulllogo" src="./media/logos/cliff_fullb.png">
+    <a href="#home" class="hyperlogo"></a><img class="fulllogo" id="jump" src="./media/logos/cliff_fullw.png">
 </div>
 
 <!-- BIOGRAPHY -->
@@ -49,7 +61,7 @@
 
 <p>Currently, I use the name James Cliff as my creative artist portfolio: a collection of my music production, graphic design, web design, and other related digital media.</p>
 <!--<p>Please visit the Portfolio section below to listen to some of my music.</p>-->
-<p>I am also part of a collective group of artists called "Untitled Recordings" with <a href="https://www.soundcloud.com/a-cardinal-sin" target="_blank" class="links">Cardinal Sin</a>, <a href="https://catullusofficial.com" target="_blank" class="links">Catullus</a>, and <a href="https://soundcloud.com/lockewitnokey" target="_blank" class="links">Locke.</a> Click our logo below to visit the  website.</p>
+<p>I am also part of a collective group of artists called "Untitled Recordings" with <a href="https://www.soundcloud.com/a-cardinal-sin" target="_blank" class="links">Cardinal Sin</a>, <a href="https://catullusofficial.com" target="_blank" class="links">Catullus</a>, <a href="https://soundcloud.com/lockewitnokey" target="_blank" class="links">Locke.</a>, and <a href="https://soundcloud.com/nahom-z" target="_blank" class="links">Nahom</a>. Click our logo below to visit the  website.</p>
 
 <!-- Untitled Recordings logo -->
 <a href="http://untitledrecordings.net" target="_blank"><img class="bodylogos" src="./media/logos/ur.png"></a>
@@ -57,10 +69,9 @@
 
 <h3>If you are interested in learning more or working with James, check out the links below!</h3>
 
-<!-- PORTFOLIO 
+<!-- PORTFOLIO --> 
 <div class="port-container">
-    <p>Portfolio: Music, Graphic Deisgn, & Digital Media</p>
-</div>-->
+</div>
 
 <!--- SOCIAL MEDIA icons -->
 <div class="social-media">
@@ -82,8 +93,9 @@
 <!-- end of bio div -->
 
 <footer class="footer">
-<p class="footer">Copyright © 2018 <a href="index.html">James Cliff</a>. All rights reserved.</p>
+<p class="footer">Copyright © 2018 <a href="https://jamescliff.com" class="links">James Cliff</a>. All rights reserved.</p>
 </footer>
+<!-- [clicking the James Cliff footer hyperlink reloads the site] -->
 
 </div>
 <!-- end of div that wraps all body content -->
