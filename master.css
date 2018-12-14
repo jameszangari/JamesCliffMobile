@@ -1,4 +1,4 @@
-/* CSS FOR NEW STREAMLINED PAGE */
+/* CSS INDEX PAGE */
 
 @font-face {
   font-family: "opensans-regular";
@@ -13,17 +13,49 @@
 }
 
 @font-face {
-  font-family: "Quicksand-Regular";
-  src: url("fonts/qks/Quicksand-Regular.woff2") format("woff2"),
-       url("fonts/qks/Quicksand-Regular.woff") format("woff");
-}
+    font-family: "Agenda-Light";
+    src: url("fonts/agl/Agenda-Light.woff2") format("woff2"),
+         url("fonts/agl/Agenda-Light.woff") format("woff");
+  }
 
+@font-face {
+    font-family: "Agenda-MediumCondensed";
+    src: url("fonts/agm/Agenda-MediumCondensed.woff2") format("woff2"),
+         url("fonts/agm/Agenda-MediumCondensed.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "Agenda-Bold";
+    src: url("fonts/agb/Agenda-Bold.woff2") format("woff2"),
+         url("fonts/agb/Agenda-Bold.woff") format("woff");
+  }
+  
 body {
     background-color: rgb(250, 250, 250);
 }
 
-body, footer {
-    font-family: "opensans-regular", 'Arial, Helvetica', 'sans-serif';
+h1, h3, p {
+    max-width: 600px;
+    margin: 0 auto 1em;
+}
+
+p {
+    line-height: 28px;
+    font-size: 22px;
+}
+
+h1 {
+    font-family: "Agenda-Bold";
+    font-size: 2em;
+}
+
+h3 {
+    font-family: "Agenda-Bold";
+    font-size: 1.5em;
+}
+
+div.wrapper, p {
+    font-family: "Agenda-MediumCondensed";
 }
 
 div.logo-container {    
@@ -99,7 +131,7 @@ a.hyperlogo {
 }
 
 div.bio-container {
-    padding: 4em;
+    padding: 3em;
 }
 
 img.bodylogos {
@@ -127,36 +159,16 @@ a.bodylogos {
 }
 
 div.port-container {
-    padding: 4em;
+    padding: 3em;
 }
 
 div.con-container {
-    padding: 4em;
+    padding: 3em;
 }
 
 div.social-media {
     text-align: center;
-    padding: 4em;
-}
-
-h1, h3, p {
-    max-width: 600px;
-    margin: 0 auto 1em;
-}
-
-p {
-    line-height: 24px;
-    font-size: 18px;
-}
-
-h1 {
-    font-family: "dinbold";
-    font-size: 2em;
-}
-
-h3 {
-    font-family: "dinbold";
-    font-size: 1.5em;
+    padding: 3em;
 }
 
 img.media-buttons {
@@ -184,13 +196,6 @@ img.media-buttons {
     width: 48px;
 }
 
-footer, p.footer {
-    text-align: center;
-    /*padding: 4em;*/
-    padding-bottom: 1em;
-    font-size: 12px;
-}
-
 /* unvisited link */
 a.links:link {
     color: #800000;
@@ -215,19 +220,28 @@ a.links:active {
     text-decoration: none;
 }
 
+footer, p.footer {
+    text-align: center;
+    /*padding: 4em;*/
+    padding-bottom: 1em;
+    font-size: 12px;
+    font-family: "Agenda-Light";
+}
+
 /* Micro reset */
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
 html, body { height: 100%; width: 100%; font-family: 'Open Sans','Helvetica', 'Arial', 'sans-serif'; }
 
+/* HIDDEN PAGE */
 
 /* AUDIO.html CSS */
 figure {
-    padding: 4em;
+    padding: 3em;
     z-index: 2;
 }
 
 figcaption {
     padding-bottom: 1em;
-    font-family: "dinbold";
+    font-family: "Agenda-Bold";
     font-size: 16px;
 }
