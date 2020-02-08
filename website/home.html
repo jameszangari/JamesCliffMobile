@@ -11,8 +11,8 @@
     <title>James Cliff</title>
 </head>
 <body>
-<a name="top"></a>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -37,7 +37,7 @@ function topFunction() {
 
 <!-- b/w logo [clicking jumps to sticky bar] -->
 <div class="logo-container">
-    <a href="home.html" class="hyperlogo"><img src="./media/logos/cliff_animation.gif" class="stick"></a>
+    <a href="home.html" class="hyperlogo"><img src="./media/logos/cliff_animation.gif" alt="cliff_animation" class="stick"></a>
 </div>
 
 <!-- start of div that wraps all body content -->
@@ -61,12 +61,18 @@ function topFunction() {
     <h1>James Cliff</h1>
     <p class="title">Digital Creator</p>
   <div class="logos" style="margin: 24px 0;">    
-    <a href="https://geo.music.apple.com/us/artist/james-cliff/1279063784?mt=1&app=music" target="_blank" class="button"><img src="./media/sources/applemusic3.svg" class="card_logos"></a>
-    <a href="https://open.spotify.com/artist/4LC9nY3eZTxQYqd02gKOMl?si=rnqnLEYDRKSkhn3k3R01QQ" target="_blank" class="button"><img src="./media/sources/spotify2.svg" class="card_logos"></a> 
-    <a href="https://soundcloud.com/jamescliffmedia" target="_blank" class="button"><img src="./media/sources/soundcloud3.svg" class="card_logos"></a>
+    <a href="https://geo.music.apple.com/us/artist/james-cliff/1279063784?mt=1&app=music" target="_blank" class="button"><img src="./media/sources/applemusic3.svg" alt ="apple music" class="card_logos"></a>
+    <a href="https://open.spotify.com/artist/4LC9nY3eZTxQYqd02gKOMl?si=rnqnLEYDRKSkhn3k3R01QQ" target="_blank" class="button"><img src="./media/sources/spotify2.svg" alt="spotify" class="card_logos"></a> 
+    <a href="https://soundcloud.com/jamescliffmedia" target="_blank" class="button"><img src="./media/sources/soundcloud3.svg" alt="soundcloud" class="card_logos"></a>
   </div>
-    <p><button id="cardbutton"><a href="mailto:me@jamescliff.com" class="links">Contact</a></button></p>
+    <button onclick="eMail();" id="cardbutton">Contact</button>
 </div>
+
+<script>
+  function eMail(){
+    window.location.href = 'mailto:me@jamescliff.com';
+  }
+</script>
 
 <!-- insert portfolio items from notes -->
 <h3 id="2">DIGITAL MEDIA</h3>
@@ -101,12 +107,18 @@ function topFunction() {
 <!--- SOCIAL MEDIA icons -->
 <h3>CONNECT WITH ME</h3>
 <div class="social-media">
-  <a href="https://www.instagram.com/jamescliffmedia/" target="_blank" class="insta"><img src="./media/social_media/instagram_white.svg" class="glowing purple" id="insta"></a> <!-- instagram button -->
-  <a href="https://twitter.com/jamescliffmedia" target="_blank"><img src="./media/social_media/twitter_white.svg"    class="glowing blue" id="twit"></a> <!-- twitter button -->
-  <a href="https://open.spotify.com/artist/4LC9nY3eZTxQYqd02gKOMl?si=rnqnLEYDRKSkhn3k3R01QQ" target="_blank"><img src="./media/social_media/spotify_white.svg" class="glowing green" id="spot"></a> <!-- spotify button -->
-  <a href="https://geo.music.apple.com/us/artist/james-cliff/1279063784?mt=1&app=music" target="_blank"><img src="./media/social_media/applemusic_white.svg" class="glowing apple" id="apple"></a> <!-- apple music button -->
-  <a href="https://soundcloud.com/jamescliffmedia" target="_blank"><img src="./media/social_media/soundcloud_white.svg"    class="glowing soundcloud" id="sound"></a> <!-- soundcloud button -->
-  <a href="mailto:me@jamescliff.com" class="links"><img src="./media/social_media/email_white.svg" class="glowing cyan" id="email"></a> <!-- email button -->
+  <a href="https://www.instagram.com/jamescliffmedia/" target="_blank" class="insta">
+      <img src="./media/social_media/instagram_white.svg" alt="instagram" id="insta"></a>
+  <a href="https://twitter.com/jamescliffmedia" target="_blank">
+      <img src="./media/social_media/twitter_white.svg" alt="twitter" id="twit"></a>
+  <a href="https://open.spotify.com/artist/4LC9nY3eZTxQYqd02gKOMl?si=rnqnLEYDRKSkhn3k3R01QQ" target="_blank">
+      <img src="./media/social_media/spotify_white.svg" alt="spotify" id="spot"></a>
+  <a href="https://geo.music.apple.com/us/artist/james-cliff/1279063784?mt=1&app=music" target="_blank">
+      <img src="./media/social_media/applemusic_white.svg" alt="apple music" id="apple"></a>
+  <a href="https://soundcloud.com/jamescliffmedia" target="_blank">
+      <img src="./media/social_media/soundcloud_white.svg" alt="soundcloud" id="sound"></a>
+  <a href="mailto:me@jamescliff.com" class="links">
+      <img src="./media/social_media/email_white.svg" alt="email" id="email"></a>
 </div>
 
 <div class="contact">
