@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="cliff.css">
+    <link rel="shortcut icon" type="image/jpg" href="./media/logos/favicon.jpg"/>
+    <title>Portfolio: University Parrot</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="home.html" class="toplogo"><img src="./media/logos/white_border2.png" class="stick"></a>
+    </div>
+
+    <button onclick="goBack()" id="myBtn" title="Go to top">Back</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        mybutton.style.display = "block";
+        
+        // When the user clicks on the button, you will return to the previous page
+        function goBack() {
+          window.history.back();
+        }
+    </script>
+
+    <div class="port-container">
+    <h1>IDM213</h1>
+    <img src="./media/portfolio/universityparrot_trans.png" alt="University Parrot" class="images2x">
+    <br>
+    <p></p>
+    <p>University Parrot is a prototype mobile application for students to sign in their guests at dormitory buildings on campus.</p>
+    <br>
+    <a href="./media/idm213/IDM_213_001_PurpleParrots_FinalProject.pdf" class="links">Link to project proposal PDF</a>
+    <p></p>
+    <br>
+    <a href="https://xd.adobe.com/view/44608b28-b88f-4bb9-5f32-528d3f0e1e6f-3251" class="links">Link to Adobe XD prototype</a>
+    <p></p>
+    <br>
+    <p>Designed by James Zangari</p>
+    <p>Interaction Design: IDM213, Drexel University</p>
+    <p>Philadelphia, PA</p>
+    <p><a href="mailto:me@jamescliff.com" class="links">me@jamescliff.com</a></p>
+    </div>
+
+<footer class="footer">
+    <p class="footer">Copyright © 2020 <a href="#top" class="links">James Cliff</a>. All rights reserved.</p>
+    </footer>
+    <!-- [clicking the James Cliff footer hyperlink jumps to the top of the website] -->
+</body>
+</html>

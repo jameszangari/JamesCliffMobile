@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="cliff.css">
+    <link rel="shortcut icon" type="image/jpg" href="./media/logos/favicon.jpg"/>
+    <title>Portfolio: HomeGlow</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="home.html" class="toplogo"><img src="./media/logos/white_border2.png" class="stick"></a>
+    </div>
+    
+    <button onclick="goBack()" id="myBtn" title="Go to top">Back</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        mybutton.style.display = "block";
+        
+        // When the user clicks on the button, you will return to the previous page
+        function goBack() {
+          window.history.back();
+        }
+    </script>
+
+    <div class="port-container">
+    <h1>DIGM223</h1>
+    <h3>HomeGlow</h3>
+    <img src="./media/portfolio/HomeGlowLogo.jpg" alt="HomeGlow" class="images2x">
+    <p></p>
+    <br>
+    <p>HomeGlow is a concept for home office lighting solutions with the goal to meet the needs of someone who works from home.</p>
+    <br>
+    <p>Research included: environmentally-friendly and energy efficent lighting options; glare on laptop screens, monitors, and cellphones; stress-inducing environments; clean-air options; and natural colors for lighting.</p>
+    <br>    
+    <p>Per job description and the requirements throughout the day, the objective was to create a lighting product that follows the industrial and office tasks’ recommended illumination levels, while being environmentally-friendly, energy efficent,and providing artifical natural light.</p>
+    <br>
+    <p>Concept by James Zangari</p>
+    <p>Creative Concepts Design: DIGM223, Drexel University</p>
+    <p>Philadelphia, PA</p>
+    <p><a href="mailto:me@jamescliff.com" class="links">me@jamescliff.com</a></p>
+    </div>
+    
+<footer class="footer">
+    <p class="footer">Copyright © 2020 <a href="#top" class="links">James Cliff</a>. All rights reserved.</p>
+    </footer>
+    <!-- [clicking the James Cliff footer hyperlink jumps to the top of the website] -->
+</body>
+</html>

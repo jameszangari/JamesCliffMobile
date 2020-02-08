@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Tofino Personal';
+    src: url('TofinoPersonal-Black.woff2') format('woff2'),
+        url('TofinoPersonal-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+

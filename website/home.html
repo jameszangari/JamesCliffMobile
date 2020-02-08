@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="cliff.css">
+    <link rel="shortcut icon" type="image/jpg" href="./media/logos/favicon.jpg"/>
+    <title>James Cliff</title>
+</head>
+<body>
+<a name="top"></a>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 793.8 || document.documentElement.scrollTop > 793.8) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!-- b/w logo [clicking jumps to sticky bar] -->
+<div class="logo-container">
+    <a href="home.html" class="hyperlogo"><img src="./media/logos/cliff_animation.gif" class="stick"></a>
+</div>
+
+<!-- start of div that wraps all body content -->
+<div class="wrapper">
+
+<!-- BIO CONTAINER -->
+<div class="bio-container">
+
+<h1>ABOUT ME</h1>
+<p>My name is James and I am currently majoring in Interactive Digital Media at the Westphal College of Media Arts and Design at Drexel University in Philadelphia, PA. I am working towards a career in user interfaces and web design, while also focusing on other forms of media including photography, music production / audio mixing, and graphic design.</p>
+
+<p>A portion of my portfolio includes digital media work such as website development, social media management, as well as logo design and branding for two brands: "James Cliff" and <a href="http://untitledrecordings.net" class="links" target="_blank">"Untitled Recordings,"</a> a brand that represents a collective group of underground artists in Philadelphia. We work with local musicians and provide them with placement opportunities on instrumental tracks, small management, and mixing/mastering services.</p>
+
+<p>The James Cliff and Untitled Recordings websites were coded with basic languages: HTML, CSS, & Javascript. They are are both under management by myself to keep content up to date. Below contains portions of my portfolio: <a href="#1" class="links">Music</a>, <a href="#2" class="links">Digital Media</a>, and <a href="#3" class="links">Photography</a>.</p>
+
+<h1 id="1">PORTFOLIO</h1>
+<!-- <h3>MUSIC</h3> -->
+<!-- Hyperfollow -->
+<div class="card">
+    <img src="./media/pictures/IMG_1346_2.jpg" alt="Profile Picture" style="width:100%">
+    <h1>James Cliff</h1>
+    <p class="title">Digital Creator</p>
+  <div class="logos" style="margin: 24px 0;">    
+    <a href="https://geo.music.apple.com/us/artist/james-cliff/1279063784?mt=1&app=music" target="_blank" class="button"><img src="./media/sources/applemusic3.svg" class="card_logos"></a>
+    <a href="https://open.spotify.com/artist/4LC9nY3eZTxQYqd02gKOMl?si=rnqnLEYDRKSkhn3k3R01QQ" target="_blank" class="button"><img src="./media/sources/spotify2.svg" class="card_logos"></a> 
+    <a href="https://soundcloud.com/jamescliffmedia" target="_blank" class="button"><img src="./media/sources/soundcloud3.svg" class="card_logos"></a>
+  </div>
+    <p><button id="cardbutton"><a href="mailto:me@jamescliff.com" class="links">Contact</a></button></p>
+</div>
+
+<!-- insert portfolio items from notes -->
+<h3 id="2">DIGITAL MEDIA</h3>
+<p>Below features work completed for the Interactive Digital Media major. Click on an image below to view the project in detail.</p>
+
+<div class="home-row">
+  <a href="digm223.html"><img src="./media/portfolio/HomeGlowLogo.jpg" alt="HomeGlow" class="images"></a>
+  <a href="fmvd206.html#1"><img src="./media/portfolio/3billboards.jpg" alt="Three Billboards Outside Ebbing, Missouri" class="images"></a>
+  <a href="fmvd206.html#2"><img src="./media/portfolio/amelie.jpg" alt="Amélie" class="images"></a>
+  <a href="fmvd206.html#3"><img src="./media/portfolio/burn-e.jpg" alt="Burn-E" class="images"></a>
+  <a href="idm213.html"><img src="./media/portfolio/universityparrot.jpg" alt="University Parrot" class="images"></a>
+  <a href="idm211.html"><img src="./media/portfolio/soundcloud.jpg" alt="SoundCloud" class="images"></a>
+  <a href="idm212.html"><img src="./media/portfolio/macrumors.jpg" alt="MacRumors" class="images"></a>
+  <a href="dsmr211.html"><img src="./media/portfolio/twwmfy.jpg" alt="TWWMFY" class="images"></a>
+  <a href="instagram.html"><img src="./media/photography/night_skyline.jpg" alt="Photography" class="images"></a>
+</div>
+
+<h3 id="3">PHOTOGRAPHY</h3>
+<p>Below you can find a collection of James Cliff Photography.</p>
+<div class="home-row">
+  <img src="./media/photography/photo110/vol_scale_018.jpg" alt="Glass Panels" class="images2x">
+<p>ƒ/16.0  1/320  ISO 400</p>
+<br>
+<button onclick="cliffPhoto();" class="inline">View More Images</button>
+</div>
+<script>
+  function cliffPhoto(){
+    window.location.href = 'photography.html';
+  }
+</script>
+
+<!--- SOCIAL MEDIA icons -->
+<h3>CONNECT WITH ME</h3>
+<div class="social-media">
+  <a href="https://www.instagram.com/jamescliffmedia/" target="_blank" class="insta"><img src="./media/social_media/instagram_white.svg" class="glowing purple" id="insta"></a> <!-- instagram button -->
+  <a href="https://twitter.com/jamescliffmedia" target="_blank"><img src="./media/social_media/twitter_white.svg"    class="glowing blue" id="twit"></a> <!-- twitter button -->
+  <a href="https://open.spotify.com/artist/4LC9nY3eZTxQYqd02gKOMl?si=rnqnLEYDRKSkhn3k3R01QQ" target="_blank"><img src="./media/social_media/spotify_white.svg" class="glowing green" id="spot"></a> <!-- spotify button -->
+  <a href="https://geo.music.apple.com/us/artist/james-cliff/1279063784?mt=1&app=music" target="_blank"><img src="./media/social_media/applemusic_white.svg" class="glowing apple" id="apple"></a> <!-- apple music button -->
+  <a href="https://soundcloud.com/jamescliffmedia" target="_blank"><img src="./media/social_media/soundcloud_white.svg"    class="glowing soundcloud" id="sound"></a> <!-- soundcloud button -->
+  <a href="mailto:me@jamescliff.com" class="links"><img src="./media/social_media/email_white.svg" class="glowing cyan" id="email"></a> <!-- email button -->
+</div>
+
+<div class="contact">
+  <p>James Cliff Media & Design</p>
+  <p>Philadelphia, PA</p>
+  <p><a href="mailto:me@jamescliff.com" class="links">me@jamescliff.com</a></p>
+  <p><a href="./media/portfolio/resume.pdf" class="links" target="_blank">Resume</a></p>
+</div>
+
+</div>
+<!-- end of bio-container -->
+
+<footer class="footer">
+<p class="footer">Copyright © 2020 <a href="#top" class="links">James Cliff</a>. All rights reserved.</p>
+</footer>
+<!-- [clicking the James Cliff footer hyperlink jumps to the top of the website] -->
+
+</div>
+<!-- end of #home div [wraps all body content] -->
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="cliff.css">
+    <link rel="shortcut icon" type="image/jpg" href="./media/logos/favicon.jpg"/>
+    <title>Portfolio: ADR</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="home.html" class="toplogo"><img src="./media/logos/white_border2.png" class="stick"></a>
+    </div>
+
+    <button onclick="goBack()" id="myBtn" title="Go to top">Back</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        mybutton.style.display = "block";
+        
+        // When the user clicks on the button, you will return to the previous page
+        function goBack() {
+          window.history.back();
+        }
+    </script>
+
+    <div class="port-container">
+    <h1>FMVD206</h1>
+    <br>
+    <h3 id="1">Three Billboards Outside Ebbing, Missouri</h3>
+    <p>For this project, we were tasked with replacing all of the audio (dialogue, soundtrack, foley, and ADR) of a snipped from the film "Three Billboards Outside Ebbing, Missouri." All dialogue was re-recorded "imitating" ADR techniques as well as all foley sounds and effects.</p>
+    <h3 id="2">Amélie</h3>
+    <p>This project focused on foley sounds, replacing and re-recording sounds for ADR purposes.</p>
+    <div class="responsive-video"><iframe src="https://drive.google.com/file/d/1eDogQz6mNVaVuLpURXBmMPH9kJuYzzwr/preview" class="video" frameborder="0"></iframe></div>
+    <h3 id="3">Burn-E</h3>
+    <p>For this project, I stripped audio on the trailer for the Disney Pixar short film "Burn-E", and produced a new, original sound track.</p>
+    <div class="responsive-video"><iframe src="https://drive.google.com/file/d/1M_mSdV2O_JI-5XrjSAdzsgA-vydkf09h/preview" class="video" frameborder="0"></iframe></div>
+    <br>
+    <p>Created by James Zangari</p>
+    <p>Audio Production and Post: FMVD206, Drexel University</p>
+    <p>Philadelphia, PA</p>
+    <p><a href="mailto:me@jamescliff.com" class="links">me@jamescliff.com</a></p>
+    </div>
+
+<footer class="footer">
+    <p class="footer">Copyright © 2020 <a href="#top" class="links">James Cliff</a>. All rights reserved.</p>
+    </footer>
+    <!-- [clicking the James Cliff footer hyperlink jumps to the top of the website] -->
+</body>
+</html>
