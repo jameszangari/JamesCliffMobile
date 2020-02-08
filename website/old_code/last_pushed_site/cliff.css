@@ -1,0 +1,246 @@
+/* CSS INDEX PAGE */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1, h3, p {
+    max-width: 600px;
+    margin: 0 auto 0.5em;
+}
+
+p {
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.8em;
+    color: white;
+    padding: 0.75em 0 0 0;
+}
+
+h3 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.1em;
+    color: white;
+    padding: 0.75em 0 1.5em 0;
+}
+
+.logo-container {   
+    height: 90vh; 
+    background-color: rgb(25, 25, 25);
+    /* background: #ffffff;
+	background: linear-gradient(
+		to right,
+		#ffffff 0%,
+		#ffffff 50%,
+		#000000 50%,
+		#000000 100%); */
+}
+
+img.stick {
+    max-width: 100%;
+    height: auto;
+}
+
+img.arrow {
+    display: block;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    bottom: -300px;
+    margin: auto;
+}
+
+.stickybar {
+    border-bottom: 5px solid #0066ff;
+    background-color: #000000;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;    
+    text-align: center;
+    z-index: 9999;
+}
+
+.fulllogo {
+    height: 80px;
+    padding: 5px;
+    padding-top: 1px;
+    top: 50%;
+    left: 50%;
+}
+
+a.hyperlogo {
+    display: block;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.stick {
+    height: 3.125rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.bio-container {
+    background-color: #000;
+    padding: 3.5em;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(25, 25, 25);
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.card_logos {
+    max-width: 69%;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media {
+    text-align: center;
+    padding: 3em;
+}
+
+.media-buttons {
+    height: 48px;
+    width: 48px;
+} 
+
+#insta {
+    height: 48px;
+    width: 48px;
+}
+
+#twit {
+    height: 48px;
+    width: 48px;
+}
+
+#spot {
+    height: 48px;
+    width: 48px;
+}
+
+#sound {
+    height: 48px;
+    width: 48px;
+}
+
+.album {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    padding: 1em;
+}
+
+.audio-wrapper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+/* unvisited link */
+a.links:link {
+    color: #7878ff;
+    text-decoration: none;
+}
+
+/* visited link */
+a.links:visited {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.links:hover {
+    color: #9a9aff;
+    text-decoration: none;
+}
+
+/* selected link */
+a.links:active {
+    color: #0051ff;
+    text-decoration: none;
+}
+
+footer, p.footer {
+    text-align: center;
+    padding: .5em 0 .5em 0;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(25, 25, 25);
+}
+
+/* Micro reset */
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html, body { height: 100%; width: 100%; font-family: 'Open Sans', "opensans-regular",'Helvetica', 'Arial', 'sans-serif'; }
+
+/* HIDDEN PAGE */
+
+/* AUDIO.html CSS */
+figure {
+    padding: 3em;
+    z-index: 2;
+}
+
+figcaption {
+    padding-bottom: 1em;
+    font-family: "Agenda-Bold";
+    font-size: 16px;
+}
