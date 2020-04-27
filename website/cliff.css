@@ -123,6 +123,32 @@ a.hyperlogo {
     background-color: rgb(25, 25, 25);
 }
 
+.hyperlinks {
+    font-family: 'Overpass', sans-serif;
+    max-width: 414px;
+    margin: 0 auto;
+}
+
+.hyperlinks .hyperlink {
+    display: block;
+    margin: 0 auto 10px;
+    color: #fff;
+    background-color: #383A3F;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+.hyperlinks .hyperlink:hover {
+    color: #383A3F;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    .hyperlink {
+        width: 80%;
+    }
+}
+
 .title {
     color: grey;
     font-size: 1.2em;
@@ -296,34 +322,9 @@ img.images:hover {
     padding: 3em;
 }
 
-#insta {
-    height: 48px;
-    width: 48px;
-}
-
-#twit {
-    height: 48px;
-    width: 48px;
-}
-
-#spot {
-    height: 48px;
-    width: 48px;
-}
-
-#apple {
-    height: 48px;
-    width: 48px;
-}
-
-#sound {
-    height: 48px;
-    width: 48px;
-}
-
-#email {
-    height: 48px;
-    width: 48px;
+.media-button {
+    height: 50px;
+    width: 50px;
 }
 
 .contact {
