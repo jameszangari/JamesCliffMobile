@@ -12,6 +12,34 @@
     <title>James Cliff</title>
 </head>
 <body>
+<div id="navGroup">
+      <nav role="navigation">
+        <div class="menu-toggle"><span>Menu</span></div>
+        <ul class="menu">
+          <li><a href="#0"><span>ABOUT ME</span></a></li>
+          <li><a href="#1"><span>PORTFOLIO</span></a></li>
+          <li><a href="#2"><span>DIGITAL MEDIA</span></a></li>
+          <li><a href="#3"><span>SHORT FILMS</span></a></li>
+          <li><a href="#4"><span>PHOTOGRAPHY</span></a></li>
+          <li><a href="#4"><span>CONTACT</span></a></li>
+        </ul>
+      </nav>
+</div>
+      <script>
+        var menu = document.querySelector(".menu"),
+          toggle = document.querySelector(".menu-toggle");
+
+        function toggleToggle() {
+          toggle.classList.toggle("menu-open");
+        };
+
+        function toggleMenu() {
+          menu.classList.toggle("active");
+        };
+
+        toggle.addEventListener("click", toggleToggle, false);
+        toggle.addEventListener("click", toggleMenu, false);          
+      </script>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
@@ -26,6 +54,19 @@ function scrollFunction() {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
+  }
+}
+
+var mynav = document.getElementById("navGroup");
+
+
+window.onscroll = function() {navFunction()};
+
+function navFunction() {
+  if (document.body.scrollTop > 793.8 || document.documentElement.scrollTop > 793.8) {
+    document.getElementById("navGroup").className = "navShader";
+  } else {
+    document.getElementById("navGroup").className = "";
   }
 }
 
@@ -136,7 +177,7 @@ function topFunction() {
       <img src="./media/social_media/email_simple.svg" alt="email" class="media-button"></a>
 </div>
 
-<div class="contact">
+<div idm="6" class="contact">
   <p>James Cliff Media & Design</p>
   <p>Philadelphia, PA</p>
   <p><a href="mailto:me@jamescliff.com" class="links">me@jamescliff.com</a></p>
