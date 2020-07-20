@@ -26,13 +26,6 @@ body {
     text-decoration: none;
 }
 
-/*:target:before {
-    content:"";
-    display:block;
-    height:90px; /~ fixed header height~/
-    margin:-90px 0 0; /~ negative fixed header height ~/
-    }*/
-
 :target {
     padding-top: 79px;
     margin-top: -79px;
@@ -201,13 +194,6 @@ button#cardbutton:hover, a.button#cardbutton:hover {
 }
 
 /* PORTFOLIO FLEX */
-/* .row {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 600px;
-    margin: 0 auto 0.5em;
-} */
-
 .home-row {
     flex-wrap: wrap;
     max-width: 40em;
@@ -231,13 +217,6 @@ button#cardbutton:hover, a.button#cardbutton:hover {
         border: 3px solid rgb(100, 100, 100);
     }}
 
-/* @media only screen and (min-width: 300px) {
-    .photo110 {   
-        max-width: 37.500em;
-        height: auto;    
-        border: 3px solid rgb(100, 100, 100);
-    }} */
-
 /* SIZING CHANGES FOR "OTHERS"*/
 @media only screen and (max-width: 600px) {
     .photo110_2 {    
@@ -255,7 +234,6 @@ button#cardbutton:hover, a.button#cardbutton:hover {
 
 @media only screen and (min-width: 1280px) {
     .photo110_2 {    
-        /* max-width: 37.500em; */
         max-width: 28.125em;
         height: auto;    
         border: 3px solid rgb(100, 100, 100);
