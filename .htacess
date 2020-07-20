@@ -1,4 +1,0 @@
-RewriteEngine On
-            RewriteCond %{HTTP_HOST} ^(www.)?jamescliff.com$ [NC]
-            RewriteCond %{REQUEST_URI} ^/untitledrecordings/(.*)$
-            RewriteRule ^(.*)$ - [L,R=404]
