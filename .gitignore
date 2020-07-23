@@ -1,2 +1,4 @@
 .htacess
-website/media
+website/media/
+website/old_code/
+website/.htacess
