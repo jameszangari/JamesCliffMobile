@@ -1,9 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^jamescliff\.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.jamescliff.com/$1 [R,L]
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^jamescliff.untitledrecordings.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.untitledrecordings.net%{REQUEST_URI} [R,L]
